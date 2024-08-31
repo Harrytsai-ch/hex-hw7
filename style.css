@@ -1,0 +1,185 @@
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+nav, header,footer {
+    background-color: black;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.aic{
+    align-items: center;
+}
+
+.title {
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.title li {
+    color:#D1D1D1;
+    font-size: 16px;
+}
+
+.profile{
+    padding-left: 24px;
+}
+
+.profile h1 {
+    color: #00ffa3;
+    font-size: 128px;
+    text-align: right;
+}
+
+.profile h2 {
+    color: #FFF;
+    font-size: 64px;
+}
+
+.tar{
+    text-align: right;
+}
+
+.btn{
+    background-color: #FFF;
+    border-radius: 32px;
+    color: black;   
+    padding: 12px 24px;
+    font-size: 16px;
+}
+/* 背景圖沒有高度，用內容去撐出高度 */
+.banner{
+    background-image: url('material/background-img.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.intro h2{
+    font-size: 64px;
+    color: #FFF;
+    padding-bottom: 36px;
+}
+
+.intro p {
+    font-size: 24px;
+    color: #FFF;
+}
+
+.intro img {
+    padding-top: 32px;
+    padding-right: 16px;
+}
+
+.pd-160{
+    padding: 160px 0px;
+}
+
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+/* 建立卡片外容器 */
+.card-list {
+    width: 636px;    
+}
+/* 建立卡片容器（每張） */
+.card-box {
+    width: 306px;
+    padding: 16px;
+    border: 1px #E3E3E3 solid;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+/* 卡片內容 */
+.card {  
+    color:#15161D;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.card h3{
+    font-size: 20px;
+}
+
+.card p{
+    font-style: 16px;
+}
+
+.content {
+    color:#15161D;
+}
+
+.content h2{
+    font-size: 64px;
+    padding-bottom: 36px;
+}
+
+.content p{
+    font-size: 24px;
+}
+
+.ad{
+    background: linear-gradient(#050014, #01021E);
+}
+
+.ad-text{
+    font-size: 64px;
+    color: #FFF;
+}
+
+.pd-96{
+    padding: 96px 0px;
+}
+
+.pd-10{
+    padding:0px 10px;
+}
+
+.project{
+    background-color: #FFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project h2{
+    font-size: 64px;
+    padding-left: 110px;
+}
+
+.right-box{
+    width: 856px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mb-28{
+    margin-bottom: 28px;
+}
+
+.mt-auto{
+    margin-top: auto;
+}
+
+.footer{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+
